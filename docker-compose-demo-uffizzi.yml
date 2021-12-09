@@ -19,6 +19,7 @@ services:
   vote:
     build:
       context: https://github.com/the38th/example-voting-vote:main
+      dockerfile:
     deploy:
       resources:
         limits:
